@@ -48,3 +48,80 @@
 margin: 0;
 }
 
+
+@media screen and (max-width: 1024px) {
+    
+}
+@media screen and (max-width: 768px) {
+    
+}
+@media screen and (max-width: 425px) {
+    .dream {
+        flex-direction: column-reverse;
+    }
+    .dream__image {
+        height: 50%;
+        width: 100%;
+    }
+    .dream__container {
+        height: 50%;
+        width: 100%;
+        padding: 25px 24px 24px;
+    }
+    .dream__paragraph {
+        margin-bottom: 7px;
+    }
+    .dream__title {
+        font-size: 36px;
+       
+    }
+}
+
+
+.people {
+
+}
+.section-subtitle {
+
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 17px;
+    text-transform: uppercase;
+    
+    color: #FED0AD;
+}
+.section-title {
+    font-family: Basis Grotesque Pro;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    /* or 117% */
+}
+.quotes {
+display: flex;
+flex-wrap: wrap;
+
+}
+.quote {
+width: 300px;
+}
+
+.quote__author {
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 17px;
+    text-transform: uppercase;
+}
+.quote__paragraph {
+    font-family: Basis Grotesque Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+}
