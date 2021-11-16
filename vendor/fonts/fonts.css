@@ -1,0 +1,32 @@
+@font-face {
+	font-family: "Basis Grotesque Pro";
+	src:
+    local("Basis Grotesque Pro"),
+    local("Basis-Grotesque-Pro"),
+    local("BasisGrotesquePro"),
+    url(./BasisGrotesquePro-Regular.woff2) format("woff2"),
+    url(./BasisGrotesquePro-Regular.woff) format("woff");
+	font-weight: normal;
+  }
+
+  @font-face {
+	font-family: "Basis Grotesque Pro";
+	src:
+    local("Basis Grotesque Pro"),
+    local("Basis-Grotesque-Pro"),
+    local("BasisGrotesquePro"),
+    url(./BasisGrotesquePro-Medium.woff2) format("woff2"),
+    url(./BasisGrotesquePro-Medium.woff) format("woff");
+	font-weight: 500;
+  }
+
+  @font-face {
+	font-family: "Roboto Mono";
+	src:
+    local("Roboto Mono"),
+    local("Roboto-Mono"),
+    local("RobotoMono"),
+    url(./Robotomonobold.woff2) format("woff2"),
+    url(./Robotomonobold.woff) format("woff");
+	font-weight: bold;
+  }
