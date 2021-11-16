@@ -1,0 +1,50 @@
+.dream_reverse {
+    flex-direction: row-reverse;
+}
+.dream {
+    display: flex;
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 100vh;
+}
+.dream__image {
+    width: 50%;
+    object-fit: cover;
+    height: 100%;
+
+}
+.dream__title {
+    font-family: Basis Grotesque Pro;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    /* identical to box height, or 117% */
+}
+.dream__container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    padding: 60px 70px 70px;
+    box-sizing: border-box;
+
+}
+.dream__text {
+
+}
+.dream__paragraph {
+    font-family: Basis Grotesque Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+    margin: 0 0 15px 0;
+}
+
+.dream__paragraph:last-child {
+margin: 0;
+}
+
