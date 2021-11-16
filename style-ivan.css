@@ -14,6 +14,7 @@
 
 }
 .dream__title {
+    margin: 0;
     font-family: Basis Grotesque Pro;
     font-style: normal;
     font-weight: 500;
@@ -137,4 +138,25 @@ width: 100%;
     line-height: 20px;
     /* or 143% */
     margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    
+}
+@media screen and (max-width: 768px) {
+    
+}
+@media screen and (max-width: 425px) {
+    .section {
+        padding: 24px 0 0;
+    }
+   .people {
+       padding:  0 24px 47px;
+   }
+   .quotes {
+       gap: 25px;
+   }
+   .quote__author {
+       margin: 0 0 12px;
+   }
 }
