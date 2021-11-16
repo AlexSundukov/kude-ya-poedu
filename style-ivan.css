@@ -54,9 +54,11 @@ margin: 0;
     
 }
 @media screen and (max-width: 768px) {
-    
+    .dream__container {
+        padding: 60px 50px;
+    }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 680px) {
     .dream {
         flex-direction: column-reverse;
     }
@@ -146,7 +148,7 @@ width: 100%;
 @media screen and (max-width: 768px) {
     
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 680px) {
     .section {
         padding: 24px 0 0;
     }
