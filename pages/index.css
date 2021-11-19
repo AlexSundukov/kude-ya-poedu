@@ -36,3 +36,6 @@
 @import url(../blocks/quote/quote.css);
 @import url(../blocks/quote/__author/quote__author.css);
 @import url(../blocks/quote/__paragraph/quote__paragraph.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
