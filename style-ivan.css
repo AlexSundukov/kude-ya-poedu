@@ -1,164 +1,73 @@
-.dream_reverse {
-    flex-direction: row-reverse;
-}
-.dream {
-    display: flex;
-    background-color: #F2F2F2;
-    width: 100%;
+.footer {
     height: 100vh;
-}
-.dream__image {
-    width: 50%;
-    object-fit: cover;
-    height: 100%;
-
-}
-.dream__title {
-    margin: 0;
-    font-family: Basis Grotesque Pro;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 42px;
-    /* identical to box height, or 117% */
-}
-.dream__container {
+    background-color: #FED0AD;
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    width: 50%;
-    height: 100%;
-    padding: 60px 70px 70px;
-    box-sizing: border-box;
-
+    justify-content: center;
+    align-items: center;
 }
-.dream__text {
-
-}
-.dream__paragraph {
-    font-family: Basis Grotesque Pro;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 20px;
-    /* or 143% */
-    margin: 0 0 15px 0;
-}
-
-.dream__paragraph:last-child {
-margin: 0;
-}
-
-
-@media screen and (max-width: 1024px) {
-    
-}
-@media screen and (max-width: 768px) {
-    .dream__container {
-        padding: 60px 50px;
-    }
-}
-@media screen and (max-width: 680px) {
-    .dream {
-        flex-direction: column-reverse;
-    }
-    .dream__image {
-        height: 50%;
-        width: 100%;
-    }
-    .dream__container {
-        height: 50%;
-        width: 100%;
-        padding: 25px 24px 24px;
-    }
-    .dream__paragraph {
-        margin-bottom: 7px;
-    }
-    .dream__title {
-        font-size: 36px;
-       
-    }
-}
-
-
-.people {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-height: 100vh;
-width: 100%;
-padding: 0 70px 121px;
-box-sizing: border-box;
-}
-.section {
-    padding: 131px 0 0;
-}
-.section__subtitle {
+.footer__copyright {
+    color: white;
     margin: 0;
-    font-family: Roboto Mono;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 13px;
-    line-height: 17px;
-    text-transform: uppercase;
-    
-    color: #FED0AD;
-}
-.section__title {
-    margin: 30px 0 0;
-    font-family: Basis Grotesque Pro;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 42px;
-    /* or 117% */
-}
-.quotes {
-    display: grid;
-grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-gap: 60px;
-
-}
-.quote {
-width: 100%;
+	font-family: Basis Grotesque Pro;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 50px;
+	line-height: 60px;
 }
 
-.quote__author {
-    font-family: Roboto Mono;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 13px;
-    line-height: 17px;
-    text-transform: uppercase;
-    margin: 0 0 24px;
-}
-.quote__paragraph {
-    font-family: Basis Grotesque Pro;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 20px;
-    /* or 143% */
-    margin: 0;
-}
 
-@media screen and (max-width: 1024px) {
-    
-}
-@media screen and (max-width: 768px) {
-    
-}
-@media screen and (max-width: 680px) {
-    .section {
-        padding: 24px 0 0;
-    }
-   .people {
-       padding:  0 24px 47px;
-   }
-   .quotes {
-       gap: 25px;
-   }
-   .quote__author {
-       margin: 0 0 12px;
-   }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

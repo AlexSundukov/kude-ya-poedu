@@ -1,0 +1,27 @@
+.header {
+	padding: 50px 70px 0;
+	height: 130px;
+	box-sizing: border-box;
+	position: relative;
+}
+.header::before {
+	display: none;
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 12;
+	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255, 255, 255, 0) 20%,rgba(255,255,255,0) 80%, rgba(255,255,255,1) 100%);
+	pointer-events: none;
+}
+@media screen and (min-width: 320px) and (max-width: 640px) {
+	.header {
+		padding: 50px 0px 0;
+	}
+	.header::before {
+		display: block;
+	}
+	
+}

@@ -1,0 +1,15 @@
+.lead__text-container {	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 70px;
+	box-sizing: border-box;
+}
+
+@media screen and (min-width: 320px) and (max-width: 640px) {
+	.lead__text-container {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	
+}

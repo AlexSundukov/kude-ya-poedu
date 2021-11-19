@@ -1,0 +1,16 @@
+.quote__author {
+	font-family: "Roboto Mono", Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 17px;
+	text-transform: uppercase;
+	margin: 0 0 35px;
+}
+@media screen and (min-width: 320px) and (max-width: 640px) {
+	.quote__author {
+		font-size: 16px;
+		line-height: 17px;
+		margin: 0 0 15px;	
+	}	
+}

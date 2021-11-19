@@ -1,0 +1,16 @@
+.section-subtitle {
+	margin: 0;
+	font-family: Roboto Mono;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 17px;
+	text-transform: uppercase;
+	color: #FED0AD;
+}
+
+@media screen and (min-width: 320px) and (max-width: 640px) {
+	.section-subtitle {
+		font-size: 15px;
+	}
+}

@@ -1,0 +1,15 @@
+.lead__image {
+	object-fit: cover;
+	min-width: 356px;
+	min-height: 356px;
+	width: 27.8vw;
+	height: 27.8vw;
+}
+
+@media screen and (min-width: 320px) and (max-width: 640px) {
+	.lead__image {
+		min-width: 280px;
+		min-height: 280px;
+	}
+	
+}

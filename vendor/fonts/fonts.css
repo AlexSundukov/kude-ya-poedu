@@ -15,8 +15,10 @@
     local("Basis Grotesque Pro"),
     local("Basis-Grotesque-Pro"),
     local("BasisGrotesquePro"),
-    url(./BasisGrotesquePro-Medium.woff2) format("woff2"),
-    url(./BasisGrotesquePro-Medium.woff) format("woff");
+    /*url(./BasisGrotesquePro-Medium.woff2) format("woff2"),
+    url(./BasisGrotesquePro-Medium.woff) format("woff");*/
+    url(./BasisGrotesquePro-Bold.woff2) format("woff2"),
+    url(./BasisGrotesquePro-Bold.woff) format("woff");
 	font-weight: 500;
   }
 

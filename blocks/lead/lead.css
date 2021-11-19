@@ -1,0 +1,15 @@
+.lead {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(385px, 1fr));
+	box-sizing: border-box;
+	height: calc(100vh - 130px);
+	padding-bottom: 130px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+	.lead {
+		padding-bottom: 0;
+		grid-template-columns: 1fr;
+	}	
+}

@@ -1,0 +1,21 @@
+.dream__container {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	width: 100%;
+	padding: 60px 70px 70px;
+	box-sizing: border-box;
+}
+
+@media screen and (min-width: 769px) {
+	.dream__container {
+		height: 100vh;
+	}
+    
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+	.dream__container {
+		height: 50vh;
+		padding: 30px 30px 30px;
+	}
+}

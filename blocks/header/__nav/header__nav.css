@@ -1,0 +1,16 @@
+.header__nav {
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	gap: 37px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+@media screen and (min-width: 320px) and (max-width: 640px) {
+	.header__nav {
+	margin-left: 25px;
+	}
+	
+}

@@ -1,0 +1,16 @@
+.dream__title {
+	margin: 0;
+	font-family: "Basis Grotesque Pro", Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 50px;
+	line-height: 60px;
+	/* identical to box height, or 117% */
+}
+
+@media screen and (min-width: 320px) and (max-width: 640px) {
+	.dream__title {
+		font-size: 30px;
+		line-height: 30px;
+	}	
+}

@@ -1,0 +1,16 @@
+.quote__paragraph {
+	font-family: "Basis Grotesque Pro", Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 28px;
+	margin: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 640px) {
+	.quote__paragraph {
+		font-size: 15px;
+		line-height: 17px;
+		
+	}	
+}
