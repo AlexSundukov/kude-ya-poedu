@@ -23,5 +23,17 @@
 	.header::before {
 		display: block;
 	}
-	
+
 }
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+
+}
+
+/* Handle */
+

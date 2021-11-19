@@ -1,6 +1,9 @@
+.header__menu::-webkit-scrollbar {
+  display: none;
+}
 .header__menu {
 	display: flex;
-	
+
 	justify-content: space-between;
 	position: relative;
 }
@@ -10,3 +13,4 @@
 	overflow-y: hidden;
 	}
 }
+
